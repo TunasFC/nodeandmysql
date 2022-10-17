@@ -10,16 +10,16 @@ const dbServer = {
     host: '127.0.0.1',
     port: '3306',
     user: 'root',
-    password: 'H4ck4t0n!',
-    database: 'hackathon_db'
+    password: 'password',
+    database: 'data_base_name'
 }
 //ssh
 const tunnelConfig = {
-    host: '34.227.231.244',
-    port: 1022,
-    username: 'student',
+    host: 'ip_of_server: 234.12.23 _example',
+    port: destiny_port_int,
+    username: 'username',
     privateKey:
-        require('fs').readFileSync('C:\\Users\\ivani\\Downloads\\hackaton-student-2.pem')
+        require('fs').readFileSync('C:\\your_pem_path')
 }
 const forwardConfig = {
     srcHost: '127.0.0.1',
